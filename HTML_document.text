@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dr Robabeh Bashiri | Portfolio</title>
+</head>
+<body>
+	<header>
+		<h1>Dr Robabeh Bashiri</h1>
+		<nav>
+			<ul>
+				<li><a href="#hero">Home</a></li>
+				<li><a href="#about">About Me</a></li>
+				<li><a href="#skills">Skills</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="hero">
+			<h2>Welcome to My Portfolio</h2>
+			<p>I’m glad you stopped by. This page gives a quick introduction to my background and work.</p>
+		</section>
+
+		<section id="about">
+			<h2>About Me</h2>
+			<p>I am a data science learner and aspiring developer who enjoys solving problems with code, data, and thoughtful design.</p>
+		</section>
+
+		<section id="skills">
+			<h2>Skills</h2>
+			<ul>
+				<li>Python</li>
+				<li>Pandas</li>
+				<li>NumPy</li>
+				<li>Data Visualization</li>
+				<li>Machine Learning</li>
+				<li>SQL</li>
+			</ul>
+		</section>
+	</main>
+</body>
+</html>
