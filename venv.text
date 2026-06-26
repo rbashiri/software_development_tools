@@ -1,0 +1,21 @@
+A clean workflow is:
+1- Create the environment once with .venv:
+    python3 -m venv .venv
+
+2- Activate it every time before installing packages:
+
+    source .venv/bin/activate
+
+3- Install packages only while that environment is active:
+
+    python -m pip install ipykernel numpy matplotlib
+
+4- Register that environment as a notebook kernel:
+
+        (python -m ipykernel install --user --name software_development_tools 
+        --display-name "Python (.venv)")
+5- In VS Code, 
+
+    open devlope_env.ipynb and select the kernel named Python (.venv).
+
+6- When working in notebooks, use the notebook’s kernel for installs, not /usr/bin/python3 and not random terminal Python installs.
